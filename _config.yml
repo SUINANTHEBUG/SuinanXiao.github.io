@@ -1,6 +1,22 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
+# _config.yml
+title: "Your Full Name"           # e.g., "John Doe"
+description: "Your professional tagline"  # e.g., "AI Researcher & Software Engineer"
+baseurl: "" 
+url: "https://yourusername.github.io"  # Your GitHub Pages URL
+
+# Social links
+social:
+  - name: "GitHub"
+    icon: "fab fa-github"
+    url: "https://github.com/yourusername"
+  - name: "LinkedIn"
+    icon: "fab fa-linkedin"
+    url: "https://linkedin.com/in/yourusername"
+  - name: "CV/Resume"
+    icon: "fas fa-file-pdf"
+    url: "/assets/cv.pdf"         # Upload your CV to /assets/cv.pdf
+
+# Theme settings
 theme: jekyll-theme-minimal
+plugins:
+  - jekyll-seo-tag
