@@ -1,22 +1,31 @@
-# _config.yml
-title: "Your Full Name"           # e.g., "John Doe"
-description: "Your professional tagline"  # e.g., "AI Researcher & Software Engineer"
-baseurl: "" 
-url: "https://yourusername.github.io"  # Your GitHub Pages URL
+title: "Suinan Xiao"
+description: "Bioinformatics Researcher"
+url: "" # Leave empty for local development
 
-# Social links
-social:
-  - name: "GitHub"
-    icon: "fab fa-github"
-    url: "https://github.com/yourusername"
-  - name: "LinkedIn"
-    icon: "fab fa-linkedin"
-    url: "https://linkedin.com/in/yourusername"
-  - name: "CV/Resume"
-    icon: "fas fa-file-pdf"
-    url: "/assets/cv.pdf"         # Upload your CV to /assets/cv.pdf
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
 
-# Theme settings
-theme: jekyll-theme-minimal
 plugins:
+  - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+author:
+  name: "Suinan Xiao"
+  avatar: "/assets/images/profile.jpg"
+  bio: "I am interested in using the power of data to solve biological problems."
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/SUINANTHEBUG"
+    # Uncomment and update the following as needed:
+    # - label: "LinkedIn"
+    #   icon: "fab fa-linkedin"
+    #   url: "https://linkedin.com/in/YOUR_USERNAME"
+    # - label: "CV"
+    #   icon: "fas fa-file"
+    #   url: "/assets/files/suinan-cv.pdf"
+
+header_pages:
+  - about.md
+  - projects.md
